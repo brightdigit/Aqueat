@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B3995B0429F0B4100007A772 /* AqueatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3995B0329F0B4100007A772 /* AqueatApp.swift */; };
-		B3995B0629F0B4100007A772 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3995B0529F0B4100007A772 /* ContentView.swift */; };
+		B3995B0629F0B4100007A772 /* ActivityRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3995B0529F0B4100007A772 /* ActivityRingView.swift */; };
 		B3995B0829F0B4110007A772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3995B0729F0B4110007A772 /* Assets.xcassets */; };
 		B3995B0B29F0B4110007A772 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3995B0A29F0B4110007A772 /* Preview Assets.xcassets */; };
 		B3995B1129F0B4110007A772 /* Aqueat Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B3995B1029F0B4110007A772 /* Aqueat Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -16,6 +16,7 @@
 		B3995B1829F0B4110007A772 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3995B1729F0B4110007A772 /* ContentView.swift */; };
 		B3995B1A29F0B4120007A772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3995B1929F0B4120007A772 /* Assets.xcassets */; };
 		B3995B1D29F0B4120007A772 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3995B1C29F0B4120007A772 /* Preview Assets.xcassets */; };
+		B3A332FC2A018DAA0036F361 /* RingSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A332FB2A018DAA0036F361 /* RingSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,7 @@
 /* Begin PBXFileReference section */
 		B3995B0029F0B4100007A772 /* Aqueat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aqueat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3995B0329F0B4100007A772 /* AqueatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AqueatApp.swift; sourceTree = "<group>"; };
-		B3995B0529F0B4100007A772 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3995B0529F0B4100007A772 /* ActivityRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingView.swift; sourceTree = "<group>"; };
 		B3995B0729F0B4110007A772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3995B0A29F0B4110007A772 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3995B1029F0B4110007A772 /* Aqueat Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aqueat Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +54,7 @@
 		B3995B1729F0B4110007A772 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3995B1929F0B4120007A772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3995B1C29F0B4120007A772 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3A332FB2A018DAA0036F361 /* RingSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				B3995B0329F0B4100007A772 /* AqueatApp.swift */,
-				B3995B0529F0B4100007A772 /* ContentView.swift */,
+				B3995B0529F0B4100007A772 /* ActivityRingView.swift */,
 				B3995B0729F0B4110007A772 /* Assets.xcassets */,
 				B3995B0929F0B4110007A772 /* Preview Content */,
+				B3A332FB2A018DAA0036F361 /* RingSet.swift */,
 			);
 			path = Aqueat;
 			sourceTree = "<group>";
@@ -231,8 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3995B0629F0B4100007A772 /* ContentView.swift in Sources */,
+				B3995B0629F0B4100007A772 /* ActivityRingView.swift in Sources */,
 				B3995B0429F0B4100007A772 /* AqueatApp.swift in Sources */,
+				B3A332FC2A018DAA0036F361 /* RingSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

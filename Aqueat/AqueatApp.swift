@@ -11,7 +11,8 @@ import SwiftUI
 struct AqueatApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          
+          RingSet()
         }
     }
 }
